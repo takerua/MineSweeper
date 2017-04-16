@@ -180,7 +180,11 @@ public class DialogWindow extends JDialog{
 		}
 	}
 
-
+	/**
+	 * ダイアログアクション
+	 * @author t-agarie
+	 *
+	 */
 	private class DialogAction extends AbstractAction{
 		@Override
 		public void actionPerformed(ActionEvent e) {
