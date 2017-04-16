@@ -16,7 +16,11 @@ import javax.swing.JDialog;
 import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-
+/**
+ * ダイアログウィンドウ
+ * @author t-agarie
+ *
+ */
 public class DialogWindow extends JDialog{
 
 	private final JPanel contentPanel = new JPanel();
