@@ -224,12 +224,6 @@ public class Minesweeper extends Thread implements BombsPanel.BombsPanelAction {
 	 * @author t-agarie
 	 *
 	 */
-
-	/**
-	 * アクション
-	 * @author ryan
-	 *
-	 */
 	private class SwingAction extends AbstractAction {
 
 
