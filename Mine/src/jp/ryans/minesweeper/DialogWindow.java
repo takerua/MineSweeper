@@ -103,7 +103,7 @@ public class DialogWindow extends JDialog{
 	 * @throws IOException
 	 */
 	public void ranking() throws IOException{
-		File fw = new File("C:/pleiades/workspace/Mine/クリアタイム.txt");
+		File fw = new File("クリアタイム.txt");
 		FileInputStream fis = new FileInputStream(fw);
 		InputStreamReader isr = new InputStreamReader(fis);
 		BufferedReader br = new BufferedReader(isr);
@@ -143,7 +143,7 @@ public class DialogWindow extends JDialog{
 	 * @throws IOException
 	 */
 	public ArrayList<SortTime> buildTimeList() throws IOException{
-		File fw = new File("C:/pleiades/workspace/Mine/クリアタイム.txt");
+		File fw = new File("クリアタイム.txt");
 		FileInputStream fis = new FileInputStream(fw);
 		InputStreamReader isr = new InputStreamReader(fis,"UTF-8");
 		BufferedReader br = new BufferedReader(isr);
