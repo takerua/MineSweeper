@@ -13,7 +13,7 @@ public class Timer extends Thread{
 	 */
 	private int num = 0;
 	/**
-	 *
+	 *タイマーのステータス
 	 */
 	private int statu = 1;
 	private JLabel timer_label;
