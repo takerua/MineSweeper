@@ -29,6 +29,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JSpinner;
 import javax.swing.SwingConstants;
 
+/**
+ * マインスイーパ　
+ */
 public class Minesweeper extends Thread implements BombsPanel.BombsPanelAction {
 
 	private JFrame frame;
